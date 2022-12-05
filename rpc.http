@@ -1,0 +1,10 @@
+# RPC
+
+POST http://localhost:5007
+Content-Type: application/json
+
+{
+    "contract": "FakeContract",
+    "method": "sharpeningLevel",
+    "args": ["0x0000000000000000000000000000000000000001", "1337"]
+}
